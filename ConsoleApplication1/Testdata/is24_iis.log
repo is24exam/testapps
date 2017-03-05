@@ -3,6 +3,7 @@
 #Date: 2016-01-15 08:01:52
 #Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) sc-status sc-substatus sc-win32-status time-taken
 2016-01-15 08:01:52 172.17.0.218 GET /public/debug/initsession webtest=true&lng=de 80 - 172.17.0.218 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/47.0.2526.111+Safari/537.36 200 0 0 19606
+2016-01-15 08:01:52 172.17.0.217 GET /public/debug/initsession webtest=true&lng=de 80 - 172.17.0.218 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/47.0.2526.111+Safari/537.36 200 0 0 19606
 2016-01-15 08:01:52 172.17.0.218 GET /private/login webtest=true&lng=de 80 - 172.17.0.218 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/47.0.2526.111+Safari/537.36 302 0 0 107
 2016-01-15 08:02:00 172.17.0.218 GET /private/login webtest=true&lng=de 443 - 172.17.0.218 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/47.0.2526.111+Safari/537.36 200 0 0 7586
 2016-01-15 08:02:00 172.17.0.218 GET /themes/is24/css/desktopbundle v=Nd_afe2k-9s9ayLGFR148tCDo007E_Rip8KhAFe_aj01 443 - 172.17.0.218 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/47.0.2526.111+Safari/537.36 200 0 0 37
