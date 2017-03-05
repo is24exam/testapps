@@ -1,0 +1,36 @@
+﻿@model IEnumerable<WebApplication1.Models.HighScore>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script type="text/javascript">
+    function deleteHighScore(name, score) {
+        var result = confirm("Are you sure to delete this item ?")
+        if (result) {
+            $.ajax({
+                type: "POST",
+                url: 'HighScore/Delete',
+                data: { Name: name, Score: score },
+                success: function () {
+                    $.ajax({
+                        type: "GET",
+                        url: 'HighScore/List',
+                        success: function (data) {
+                            $('#high-score-list').html(data);
+                        }
+                    });
+                }
+            });
+        }
+    }
+</script>
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<div id="high-score-list">
+    @Html.Partial("List",Model)
+</div>
+
